@@ -1,0 +1,118 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(blue, white);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 60px;
+  text-align: center;
+}
+
+nav {
+  height: 90px;
+  margin-top: -10px;
+}
+nav ul {
+  background: rgba(0, 0, 0, 0.274);
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 0px;
+  max-width: 100%;
+  min-width: 100%;
+  margin-top: 0px;
+  height: 100px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-flex;
+  margin-top: 10px;
+  margin-right: 10px;
+  
+}
+
+nav ul li a{
+    font-size: 60px;
+    text-decoration: none;
+    color: white;
+}
+
+.main {
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.container1,
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#elzero,
+#elzero2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 6px 6px 6px rgba(0, 0, 0, 0.3);
+  transition: 0.4s;
+  width: 400px;
+  height: 450px;
+  margin: 0px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+  margin-left: 100px;
+  min-width: 300px;
+  border: 5px solid black;
+}
+
+#elzero *,
+#elzero2 * {
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: aliceblue;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#elzero img,
+#elzero2 img {
+  max-width: 300px;
+  max-height: 290px;
+}
+
+@media only screen and (max-width: 1300px) {
+  body {
+    overflow: visible;
+  }
+  .main {
+    overflow: hidden;
+    margin-top: 90px;
+  }
+  nav ul{
+    text-align: center;
+  }
+  nav ul li a{
+    font-size: 40px;
+    margin-top: 20px;
+
+    
+  }
+  h1{
+    font-size: 50px;
+  }
+}
+
+@-moz-document url-prefix() {
+  .main {
+    margin-top: 100px;
+  }
+}
