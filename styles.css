@@ -16,7 +16,7 @@ h1 {
 }
 
 nav {
-  height: 90px;
+  height: 100px;
   margin-top: -10px;
 }
 nav ul {
@@ -27,8 +27,6 @@ nav ul {
   margin-left: 0px;
   max-width: 100%;
   min-width: 100%;
-  margin-top: 0px;
-  height: 100px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 30px;
   text-align: center;
@@ -44,6 +42,7 @@ nav ul li a{
     font-size: 70px;
     text-decoration: none;
     color: white;
+    
 }
 
 .main {
@@ -59,8 +58,7 @@ nav ul li a{
   flex-wrap: wrap;
 }
 
-#elzero,
-#elzero2 {
+.elzero {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -76,19 +74,27 @@ nav ul li a{
   border: 5px solid black;
 }
 
-#elzero *,
-#elzero2 * {
+.elzero * {
   text-decoration: none;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: aliceblue;
-  margin-bottom: 10px;
+  color: black;
+  margin-bottom: 20px;
   text-align: center;
 }
 
-#elzero img,
-#elzero2 img {
+.elzero img {
   max-width: 300px;
   max-height: 290px;
+  margin-top: -30px;
+}
+
+.elzero h3{
+ font-size: 30px; 
+ margin-top: 10px;
+ padding-bottom: 20px;
+}
+
+.elzero:hover{
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 500px) {

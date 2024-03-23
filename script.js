@@ -1,14 +1,25 @@
-function elzero() {
-}
 
-let boxzero = document.getElementById("elzero");
+
+let boxzero = document.querySelector(".elzero");
+let roadsh = document.querySelector("#roadsh")
 
 boxzero.addEventListener('click', function () {
     window.open("https://www.youtube.com/@ElzeroWebSchool");
 
 });
 
-boxzero.addEventListener('mouseover', function () {
-    boxzero.style.cursor = 'pointer';
+roadsh.addEventListener('click', function () {
+    window.open("https://roadmap.sh/");
 
 });
+
+boxzero.addEventListener('click', function () {
+    window.open("https://www.youtube.com/@ElzeroWebSchool");
+
+});
+
+boxzero.addEventListener('click', function () {
+    window.open("https://www.youtube.com/@ElzeroWebSchool");
+
+});
+

@@ -78,6 +78,11 @@ body {
   
 }
 
+#search-button:hover {
+  transition: 0.4s;
+  color: #000;
+}
+
 .button{
 
   text-align: center;

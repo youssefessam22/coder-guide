@@ -7,6 +7,10 @@ let forEmpty = document.querySelector(".forempty")
 search.addEventListener("keydown", function (event) {
   if (event.key === "Enter") {
     if (search.value === "") {
+      event.preventDefault();
+      handleEmptySearch()
+       
+
     } else {
       window.open(
         `https://www.google.com/search?q=${search.value}+intitle:programming`
@@ -18,7 +22,6 @@ submit.addEventListener("click", function () {
   if (search.value === "") {
     if (!emptyMsApp) {
     handleEmptySearch();
-    setTimeout(reset,2000)
     }
   } else {
     performSearch();
@@ -29,8 +32,9 @@ let emptyMsApp = false;
 function handleEmptySearch() {
   let empty = submit.classList.add("empty"); 
   submit.innerText = "enter a search term"
-  submit.style.fontSize = "20px"
   search.value = "";
+  setTimeout(reset,2000)
+
 
 }
 
@@ -47,7 +51,6 @@ function performSearch() {
 
 function reset() {
   submit.innerText = "search!"
-  submit.style.fontSize = "20px"
 
 
 }
