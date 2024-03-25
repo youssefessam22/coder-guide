@@ -1,9 +1,9 @@
 
 
-let boxzero = document.querySelector(".elzero");
+let youtubeChannels = document.querySelector("#youtube-channels");
 let roadsh = document.querySelector("#roadsh")
 
-boxzero.addEventListener('click', function () {
+youtubeChannels.addEventListener('click', function () {
     window.open("refs/youtube-channels/index.html","_self");
 
 });
