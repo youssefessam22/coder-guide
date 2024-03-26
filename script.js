@@ -1,14 +1,14 @@
 
 
 let youtubeChannels = document.querySelector("#youtube-channels");
-let roadsh = document.querySelector("#roadsh")
+let sites = document.querySelector("#sites")
 
 youtubeChannels.addEventListener('click', function () {
     window.open("refs/youtube-channels/index.html","_self");
 
 });
 
-roadsh.addEventListener('click', function () {
+sites.addEventListener('click', function () {
     window.open("refs/sites/index.html",'_self');
 
 });
