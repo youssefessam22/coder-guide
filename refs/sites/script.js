@@ -3,6 +3,7 @@ let roadsh = document.querySelector("#roadsh");
 let searchcode = document.querySelector("#searchcode")
 let github = document.querySelector('#github')
 let yehiaTech = document.querySelector('#yehia-tech')
+let codepen = document.querySelector('#codepen')
 
 roadsh.addEventListener('click', function () {
     window.open("https://roadmap.sh/");
@@ -19,8 +20,8 @@ github.addEventListener('click', function () {
 
 });
 
-yehiaTech.addEventListener('click', function () {
-    window.open("https://www.youtube.com/@yehiatech");
+codepen.addEventListener('click', function () {
+    window.open("https://codepen.io/");
 
 });
 
