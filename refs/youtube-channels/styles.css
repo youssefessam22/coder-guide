@@ -1,7 +1,7 @@
 body {
   padding: 0;
   margin: 0;
-  background: radial-gradient(cyan,cyan);
+  background: radial-gradient(circle at right, blue, red);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -29,14 +29,13 @@ nav ul {
   min-width: 100%;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 30px;
-  
 }
 
 nav ul li {
   display: inline-flex;
   margin-top: 10px;
   margin-right: 10px;
-  margin-left:30px;
+  margin-left: 20px;
 }
 
 nav ul li a {
@@ -62,16 +61,18 @@ nav ul li a {
   flex-direction: column;
   align-items: center;
   box-shadow: 0px 6px 6px 6px rgba(0, 0, 0, 0.3);
-  transition: 0.6s;
+  transition: 0.4s;
   width: 400px;
-  height: 450px;
+  height: 400px;
   margin: 0px;
   margin-right: 100px;
   margin-bottom: 100px;
   margin-left: 100px;
   min-width: 250px;
-  border: 5px solid none;
+  border: 2px solid black;
+  border-radius: 30px;
   padding: 0;
+  
 }
 
 .elzero * {
@@ -83,8 +84,7 @@ nav ul li a {
   width: 300px;
   max-width: 300px;
   max-height: 290px;
-  margin-top: -30px;
-
+  margin-top: -10px;
   border: 1px none solid;
   border-radius: 30px;
 }
@@ -92,21 +92,21 @@ nav ul li a {
 .elzero h3 {
   font-size: 30px;
   margin-top: 10px;
-  padding-bottom: 20px;
+  padding: 5px;
+  background-color: aliceblue;
+  border-radius: 20px;
+  width: 90%;
+  white-space: nowrap;
+  
 }
 
 .elzero h4 {
   margin-top: 10px;
-  
 }
-
 
 .elzero:hover {
   cursor: pointer;
 }
-
-
-
 
 @media only screen and (max-width: 450px) {
   body {
@@ -117,46 +117,44 @@ nav ul li a {
     margin-top: 90px;
   }
   nav ul li a {
-     font-size:20px;
-    
+    font-size: 20px;
+    margin-left: -10px;
   }
 
   nav ul li {
-  text-align: center;
-  justify-content: center;
-  align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
   }
   #title {
-  font-size: 40px;
+    font-size: 40px;
   }
 
   .elzero h4 {
-  font-size: 15px;
-
+    font-size: 15px;
   }
   #elzero h4 {
-  margin-top: 30px;
+    margin-top: 30px;
   }
 
   #elzero h4 {
     margin-top: 30px;
   }
-  
+
   .elzero img {
     min-width: 200px;
     max-width: 200px;
     max-height: 300px;
-    margin-top: -30px;
-  
-    border: 1px black solid;
+    margin-top: 10px;
     border-radius: 30px;
   }
 
-  .elzero{
-    height: 400px;
+  .elzero {
+    height: 300px;
   }
-
-  
+  .elzero h3{
+    font-size: 20px;
+  }
 }
 @-moz-document url-prefix() {
   .main {

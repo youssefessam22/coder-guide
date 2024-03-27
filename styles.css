@@ -1,7 +1,7 @@
 body {
   padding: 0;
   margin: 0;
-  background: linear-gradient(blue, white);
+  background: radial-gradient(circle at right, #9c27b0, #ff9800);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -73,6 +73,7 @@ nav ul li a {
   border: 2px solid black;
   border-radius: 30px;
   padding: 0;
+  background-color: white;
 }
 
 .elzero * {
@@ -98,19 +99,17 @@ nav ul li a {
 
 .elzero h4 {
   margin-top: 10px;
-  
 }
-
 
 .elzero:hover {
   cursor: pointer;
 }
 
-.elzero i{
+.elzero i {
   font-size: 250px;
 }
 
-#youtube{
+#youtube {
   color: red;
 }
 
@@ -123,16 +122,15 @@ nav ul li a {
     margin-top: 90px;
   }
   nav ul li a {
-  font-size: 40px;
+    font-size: 40px;
   }
 
   nav ul li {
-  text-align: center;
+    text-align: center;
   }
   #title {
-  font-size: 40px;
+    font-size: 40px;
   }
-
 
   #elzero h4 {
     margin-top: 30px;
@@ -140,7 +138,6 @@ nav ul li a {
 
   .elzero i {
     font-size: 200px;
-   
   }
 }
 @-moz-document url-prefix() {

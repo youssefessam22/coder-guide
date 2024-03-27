@@ -9,7 +9,7 @@ let buttons = document.querySelectorAll(".elzero button");
 let boxes = document.querySelectorAll('.elzero')
 
 buttons.forEach(function (button, index) {
-    button.textContent = `or download ${boxes[index].id} from here`;
+    button.textContent = `download ${boxes[index].id} from here`;
 });
 
 vscodeDownload.addEventListener("click", function () {
