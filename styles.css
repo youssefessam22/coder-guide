@@ -111,6 +111,8 @@ nav ul li a {
 
 #youtube {
   color: red;
+  height: 300px;
+  width: 400px;
 }
 
 @media only screen and (max-width: 550px) {
