@@ -1,7 +1,7 @@
 body {
   padding: 0;
   margin: 0;
-  background: radial-gradient(circle at right, blue, red);
+  background: linear-gradient( to right, blue, red);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -72,6 +72,7 @@ nav ul li a {
   border: 2px solid black;
   border-radius: 30px;
   padding: 0;
+  background-color: rgba(0, 0, 40, 0.3);
   
 }
 

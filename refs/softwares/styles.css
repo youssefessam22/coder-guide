@@ -60,7 +60,7 @@ nav ul li a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: 0px 6px 6px 6px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 6px 20px 6px rgba(0, 0, 0, 0.3);
   transition: 0.4s;
   width: 400px;
   height: 460px;
@@ -72,6 +72,10 @@ nav ul li a {
   border-radius: 30px;
   padding: 0;
   background-color: white;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  position: relative;
+
 }
 .elzero * {
   text-decoration: none;
@@ -94,8 +98,10 @@ nav ul li a {
   padding-bottom: 20px;
 }
 
-.elzero h4 {
+.elzero p {
   margin-top: 10px;
+  padding: 0;
+  margin: 0;
 }
 
 .elzero:hover {
@@ -107,18 +113,31 @@ nav ul li a {
 }
 
 .elzero button {
-  margin-top: 60px;
   background-color: #eee;
   border-radius: 30px;
   font-size: 30px;
   border: 3px solid black;
   text-wrap: nowrap;
   text-decoration: underline;
+  padding: 0;
+  position: absolute;
+  bottom: -20px;
+
 }
 
 .elzero *:hover {
   cursor: pointer;
 }
+
+
+#cmder p{
+  margin-top: 20px;
+}
+
+#vscode p{
+  margin-top: 30px;
+}
+
 
 @media only screen and (max-width: 450px) {
   body {
@@ -141,17 +160,6 @@ nav ul li a {
     font-size: 40px;
   }
 
-  .elzero h4 {
-    font-size: 15px;
-  }
-  #elzero h4 {
-    margin-top: 30px;
-  }
-
-  #elzero h4 {
-    margin-top: 30px;
-  }
-
   .elzero img {
     min-width: 200px;
     max-width: 200px;
@@ -163,10 +171,22 @@ nav ul li a {
 
   .elzero button {
     font-size: 18px;
-    margin-top: 40px;
   }
+  
+  #vscodeDownload{
+    margin-top: 10px;
+  }
+
+  #vscode p {
+    margin-top: 5px;
+  }
+
+  #cmderDownload{
+    margin-top: 5px;
+  }
+ 
   .elzero {
-    height: 350px;
+    height: 370px;
   }
 }
 @-moz-document url-prefix() {
