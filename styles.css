@@ -5,6 +5,7 @@ body {
   background: url(images/wallpaper.jpg);
   background-size: cover;
   background-attachment: fixed;
+  position: relative;
 }
 
 * {
@@ -97,6 +98,7 @@ nav ul li a {
   border-radius: 30px;
   padding: 0;
   background-color:rgba(255, 255, 255, 0.445);
+  position: relative;
 }
 
 .elzero * {
@@ -105,14 +107,6 @@ nav ul li a {
   text-align: center;
 }
 
-.elzero img {
-  max-width: 300px;
-  max-height: 290px;
-  margin-top: -30px;
-
-  border: 1px black solid;
-  border-radius: 30px;
-}
 
 .elzero h3 {
   font-size: 30px;
@@ -130,6 +124,12 @@ nav ul li a {
 
 .elzero i {
   font-size: 250px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
 }
 
 #youtube {

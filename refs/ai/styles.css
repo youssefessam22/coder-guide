@@ -104,15 +104,9 @@ nav ul li a {
   cursor: pointer;
 }
 
-#git-icon {
-  padding-bottom: 50px;
-}
-
-#codepen-icon {
-  padding-bottom: 50px;
-}
-
 .elzero i {
+  position: absolute;
+  top: 20%;
   font-size: 200px;
 }
 
