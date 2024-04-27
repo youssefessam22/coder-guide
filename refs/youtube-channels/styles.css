@@ -1,13 +1,15 @@
 body {
   padding: 0;
   margin: 0;
-  background: linear-gradient( to right, blue, red);
-  background-size: cover;
+  background:url(../../images/youtube.png);
+  background-size: 100% 100%;
   background-attachment: fixed;
 }
 
 * {
   font-family: "poppins", sans-serif;
+  transition: 0.4s; 
+
 }
 
 #title {
@@ -18,15 +20,14 @@ body {
 nav {
   height: 100px;
   margin-top: -10px;
+  position: sticky;
+  top: 0;
 }
 nav ul {
   background: rgba(0, 0, 0, 0.274);
   list-style-type: none;
   margin: 0;
-  padding: 0;
-  margin-left: 0px;
   max-width: 100%;
-  min-width: 100%;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 30px;
 }
@@ -34,8 +35,7 @@ nav ul {
 nav ul li {
   display: inline-flex;
   margin-top: 10px;
-  margin-right: 10px;
-  margin-left: 20px;
+  margin-left: -10px;
 }
 
 nav ul li a {
@@ -117,9 +117,8 @@ nav ul li a {
     overflow: hidden;
     margin-top: 90px;
   }
-  nav ul li a {
+  nav ul li  {
     font-size: 20px;
-    margin-left: -10px;
   }
 
   nav ul li {

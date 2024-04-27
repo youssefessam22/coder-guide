@@ -2,13 +2,16 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: #081b29;
+  background: url(../images/search.jpg);
+  background-size: 100% 100%;
   background-attachment: fixed;
 
 }
 
 *{
   font-family: 'poppins',sans-serif;
+  transition: 0.4s; 
+
 }
 .search-nav{
   margin: 0;
@@ -50,6 +53,7 @@ body {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
+
 }
 .search-input {
   width: 600%;

@@ -3,6 +3,8 @@
 let youtubeChannels = document.querySelector("#youtube-channels");
 let sites = document.querySelector("#sites")
 let softwares = document.querySelector('#softwares')
+let ai = document.querySelector('#ai')
+
 youtubeChannels.addEventListener('click', function () {
     window.open("refs/youtube-channels/index.html","_self");
 
@@ -14,12 +16,10 @@ sites.addEventListener('click', function () {
 });
 
 softwares.addEventListener('click', function () {
-    window.open("refs/softwares/index.html");
+    window.open("refs/softwares/index.html", '_self');
 
 });
 
-boxzero.addEventListener('click', function () {
-    window.open("https://www.youtube.com/@ElzeroWebSchool");
-
-});
-
+ai.addEventListener('click',function () {
+    window.open('refs/ai/index.html','_self')
+})
