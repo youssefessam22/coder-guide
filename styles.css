@@ -74,12 +74,15 @@ nav ul li a {
 }
 
 .container1,
-.container2 {
+.container2,
+.container3  {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
 }
+
+
 
 .elzero {
   display: flex;
@@ -137,10 +140,6 @@ nav ul li a {
   font-size:250px;
 }
 
-#doc {
-  margin: 0 auto;
-  margin-bottom: 40px;
-}
 
 footer{
   background-color: gray;
