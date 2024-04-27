@@ -197,7 +197,8 @@ footer div{
   }
 
   .container1,
-  .container2 {
+  .container2,
+  .container3 {
     flex-direction: column;
     flex-wrap: nowrap;
   }
