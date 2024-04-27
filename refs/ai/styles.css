@@ -35,14 +35,14 @@ nav ul {
 
 nav ul li {
   display: inline-flex;
-  margin-top: 10px;
   margin-left: -10px;
 }
 
 nav ul li a {
-  font-size: 110%;
+    font-size: 110%;
   text-decoration: none;
   color: white;
+  
 }
 
 .main {
