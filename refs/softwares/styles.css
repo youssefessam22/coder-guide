@@ -77,8 +77,6 @@ nav ul li a {
   border-radius: 30px;
   padding: 0;
   background-color: white;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
   position: relative;
   
   text-overflow: ellipsis;
@@ -106,9 +104,7 @@ nav ul li a {
 
 .elzero p {
   font-size: 125%;
-  margin-top: 10px;
-  padding: 0;
-  margin: 0;
+  margin-top: 5%;
   overflow: hidden;
 }
 
@@ -120,7 +116,7 @@ nav ul li a {
   border-radius: 0;
 }
 
-.elzero button {
+/* .elzero a {
   background-color: #eee;
   border-radius: 30px;
   font-size: 30px;
@@ -133,7 +129,7 @@ nav ul li a {
   overflow: hidden;
   text-overflow: ellipsis;
 
-}
+} */
 
 .elzero *:hover {
   cursor: pointer;
@@ -148,7 +144,7 @@ nav ul li a {
   margin-top: 20px;
 }
 
-#codepen button{
+#codepen a{
   font-size: 25px;
 }
 
@@ -181,8 +177,8 @@ nav ul li a {
 
     border-radius: 30px;
   }
-
-  .elzero button {
+/* 
+  .elzero a {
     font-size: 18px;
     width: 35vh;
   }
@@ -197,10 +193,10 @@ nav ul li a {
 
   #cmderDownload{
     margin-top: 5px;
-  }
+  } */
 
-  #cmder p{
-    font-size: 16px;
+  .elzero p{
+    font-size: 3.5vw;
   }
  
   .elzero {
