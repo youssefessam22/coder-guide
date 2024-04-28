@@ -81,10 +81,8 @@ nav ul li a {
   text-align: center;
 }
 .elzero img {
-  width: 20vh;
-  max-width: 300px;
-  max-height: 300px;
-  margin-top: 20px;
+  width: 70%;
+  margin-top: 0px;
   border: 1px none solid;
   border-radius: 30px;
 }
