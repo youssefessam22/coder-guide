@@ -112,17 +112,7 @@ nav ul li a {
   body {
     overflow: visible;
   }
-  .main {
-    overflow: hidden;
-    margin-top: 90px;
-  }
-
-
-  nav ul li {
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-  }
+ 
 
   .elzero {
     height: 300px;
