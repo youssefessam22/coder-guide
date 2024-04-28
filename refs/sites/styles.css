@@ -77,11 +77,7 @@ nav ul li a {
   text-align: center;
 }
 .elzero img {
-  width: 90%;
-  max-width: 300px;
-  max-height: 290px;
-  position: absolute;
-  top: 20%;
+  width: 70%;
   border: 1px none solid;
   border-radius: 30px;
 }
@@ -89,7 +85,6 @@ nav ul li a {
 .elzero h3 {
   font-size: 30px;
   margin-top: 10px;
-  padding-bottom: 20px;
 }
 
 .elzero h4 {
@@ -100,22 +95,23 @@ nav ul li a {
   cursor: pointer;
 }
 
-#git-icon {
-  padding-bottom: 50px;
-}
 
-#codepen-icon {
-  padding-bottom: 50px;
-}
+
 
 .elzero i {
   font-size: 20vh;
-  position: absolute;
-  top: 20%;
 }
 
 #elzeroWebSchool h3 {
   font-size: 2.5vh;
+}
+
+img{
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
 }
 
 @media only screen and (max-width: 450px) {
@@ -125,17 +121,6 @@ nav ul li a {
   .main {
     overflow: hidden;
   }
-
-
-  .elzero img {
-    min-width: 200px;
-    max-width: 200px;
-    max-height: 300px;
-    position: absolute;
-    top: 20%;
-    border-radius: 30px;
-  }
-
   .elzero {
     height: 300px;
   }
