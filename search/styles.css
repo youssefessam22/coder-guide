@@ -39,7 +39,7 @@ body {
   text-decoration: none;
   color: white;
   font-weight: bold;
-  font-size: 2.5vh;
+  font-size: 3vh;
 
 }
 .container {
@@ -58,12 +58,11 @@ body {
 
 }
 .search-input {
-  width: 600%;
+  width: 100%;
   padding: 20px;
-  font-size: 16px;
   border: black 2px solid;
   border-radius: 30px;
-  font-size: 40px;
+  font-size: 3vh;
   
 
 }
@@ -75,7 +74,7 @@ body {
 
 #search-button {
   padding: 10px 20px;
-  font-size: 40px;
+  font-size: 3vh;
   border: 5px solid gainsboro;
   border-radius: 20px;
   background-color: #007bff;
@@ -90,20 +89,6 @@ body {
 }
 
 .button{
-
   text-align: center;
 }
 
-@media only screen and (max-width:600px){
-  .search-nav ul li a{
-        font-size: 30px;
-  }
-
-  #search-button{
-    font-size: 20px;
-  }
-
-  .search-input{
-    font-size: 30px;
-  }
-}
