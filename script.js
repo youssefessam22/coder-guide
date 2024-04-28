@@ -31,5 +31,5 @@ search.addEventListener('click',function () {
 })
 
 extensions.addEventListener('click',function () {
-    window.open("refs/extensions/index.html")
+    window.open("refs/extensions/index.html","_self")
 })
