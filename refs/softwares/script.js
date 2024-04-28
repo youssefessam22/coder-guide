@@ -1,9 +1,7 @@
 let vscode = document.querySelector("#vscode");
 let cmder = document.querySelector("#cmder");
-let github = document.querySelector("#github");
-let yehiaTech = document.querySelector("#yehia-tech");
 let sublime = document.querySelector("#sublime");
-let codepen = document.querySelector("#codepen");
+let discord = document.querySelector("#discord");
 
 let boxes = document.querySelectorAll(".elzero");
 
@@ -19,3 +17,7 @@ sublime.addEventListener("click", function () {
 vscode.addEventListener("click", function () {
   window.open("https://code.visualstudio.com/");
 });
+
+discord.addEventListener('click',function () {
+  window.open("https://discord.com")
+})

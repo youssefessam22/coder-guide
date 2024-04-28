@@ -132,6 +132,8 @@ nav ul li a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  color: white;
+  
   
 }
 
@@ -150,6 +152,10 @@ footer div{
   padding-top: 10px;
   
 
+}
+
+#extensions h3{
+  font-size: 2.5vh;
 }
 
 @media only screen and (max-width: 960px) {

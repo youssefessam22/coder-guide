@@ -5,7 +5,7 @@ let sites = document.querySelector("#sites")
 let softwares = document.querySelector('#softwares')
 let ai = document.querySelector('#ai')
 let search = document.querySelector("#search")
-
+let extensions = document.querySelector( '#extensions' )
 
 youtubeChannels.addEventListener('click', function () {
     window.open("refs/youtube-channels/index.html","_self");
@@ -28,4 +28,8 @@ ai.addEventListener('click',function () {
 
 search.addEventListener('click',function () {
     window.open("search/search.html",'_self')
+})
+
+extensions.addEventListener('click',function () {
+    window.open("refs/extensions/index.html")
 })

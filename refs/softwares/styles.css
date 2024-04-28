@@ -41,12 +41,15 @@ nav ul li {
   display: inline-flex;
   margin-right: 10px;
   margin-left: 30px;
+  
 }
 
 nav ul li a {
   font-size: 110%;
   text-decoration: none;
   color: white;
+  font-weight: bold;
+
 }
 
 .main {
@@ -147,6 +150,11 @@ nav ul li a {
 #codepen a{
   font-size: 25px;
 }
+
+#discord p {
+  font-size: 100%;
+}
+
 
 @media only screen and (max-width: 500px) {
   body {
