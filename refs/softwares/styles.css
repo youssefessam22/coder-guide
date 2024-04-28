@@ -39,13 +39,13 @@ nav ul {
 
 nav ul li {
   display: inline-flex;
-  margin-right: 10px;
-  margin-left: 30px;
+  margin-left: 2vh;
+ 
   
 }
 
 nav ul li a {
-  font-size: 110%;
+  font-size: 3vh;
   text-decoration: none;
   color: white;
   font-weight: bold;
@@ -106,7 +106,7 @@ nav ul li a {
 }
 
 .elzero p {
-  font-size: 125%;
+  font-size: 1.5vh;
   margin-top: 5%;
   overflow: hidden;
 }
@@ -153,6 +153,10 @@ nav ul li a {
 
 #discord p {
   font-size: 100%;
+}
+
+#sublime p{
+  padding: 10px;
 }
 
 
@@ -203,10 +207,7 @@ nav ul li a {
     margin-top: 5px;
   } */
 
-  .elzero p{
-    font-size: 3.5vw;
-  }
- 
+
   .elzero {
     height: 370px;
   }
