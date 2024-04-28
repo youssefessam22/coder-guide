@@ -38,7 +38,7 @@ nav ul {
 }
 
 nav ul li {
-  display: inline-flex;
+  display: inline-block;
   margin-left: 2vh;
  
   
