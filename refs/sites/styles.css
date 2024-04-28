@@ -11,11 +11,6 @@ body {
   transition: 0.4s;
 }
 
-#title {
-  font-size: 70px;
-  text-align: center;
-}
-
 nav {
   height: 100px;
   position: sticky;
@@ -40,7 +35,7 @@ nav ul li {
 }
 
 nav ul li a {
-  font-size: 110%;
+  font-size: 3vh;
   text-decoration: none;
   color: white;
   font-weight: bold;
@@ -132,30 +127,7 @@ nav ul li a {
     overflow: hidden;
     margin-top: 90px;
   }
-  nav ul li a {
-    font-size: 20px;
-    margin-left: 2px;
-  }
 
-  nav ul li {
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-  }
-  #title {
-    font-size: 40px;
-  }
-
-  .elzero h4 {
-    font-size: 15px;
-  }
-  #elzero h4 {
-    margin-top: 30px;
-  }
-
-  #elzero h4 {
-    margin-top: 30px;
-  }
 
   .elzero img {
     min-width: 200px;
