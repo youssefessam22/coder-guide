@@ -139,24 +139,6 @@ nav ul li a {
 }
 
 
-#cmder p{
-  margin-top: 20px;
-}
-
-#vscode p{
-  margin-top: 20px;
-}
-
-#codepen a{
-  font-size: 25px;
-}
-
-
-
-#sublime p{
-  padding: 10px;
-}
-
 
 @media only screen and (max-width: 500px) {
   body {
@@ -165,18 +147,6 @@ nav ul li a {
   .main {
     overflow: hidden;
     margin-top: 90px;
-  }
-  nav ul li a {
-    font-size: 20px;
-  }
-
-  nav ul li {
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-  }
-  #title {
-    font-size: 40px;
   }
 
   .elzero img {
