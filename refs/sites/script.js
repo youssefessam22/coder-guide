@@ -4,6 +4,8 @@ let searchcode = document.querySelector("#searchcode")
 let github = document.querySelector('#github')
 let yehiaTech = document.querySelector('#yehia-tech')
 let codepen = document.querySelector('#codepen')
+let stackOverFlow = document.querySelector('#stackOverflow')
+let elzeroWebSchool = document.querySelector("#elzeroWebSchool")
 
 roadsh.addEventListener('click', function () {
     window.open("https://roadmap.sh/");
@@ -25,3 +27,10 @@ codepen.addEventListener('click', function () {
 
 });
 
+stackOverFlow.addEventListener('click',function () {
+    window.open("https://stackoverflow.com/")
+})
+
+elzeroWebSchool.addEventListener('click',function () {
+    window.open("https://elzero.org/")
+})
