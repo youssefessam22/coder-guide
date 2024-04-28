@@ -19,8 +19,6 @@ body {
 }
 
 nav {
-  height: 100px;
-  margin-top: -10px;
   position: sticky;
   z-index: 1;
   top: 0;
@@ -45,7 +43,7 @@ nav ul li {
 }
 
 nav ul li a {
-  font-size: 3vh;
+  font-size: 120%;
   text-decoration: none;
   color: white;
   font-weight: bold;
