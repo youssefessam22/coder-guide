@@ -111,8 +111,8 @@ nav ul li a {
 }
 
 .elzero p {
-  padding: 0px;
-  font-size: 100%;
+  padding: 5px;
+  font-size: 95%;
   overflow: hidden;
   text-wrap:pretty;
   position: absolute;
