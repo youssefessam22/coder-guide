@@ -11,8 +11,6 @@ body {
   transition: 0.4s;
 }
 
-
-
 nav {
   position: sticky;
   top: 0px;
@@ -84,9 +82,8 @@ nav ul li a {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   width: 90%;
-  
 }
 
 .elzero h3 {
@@ -97,7 +94,6 @@ nav ul li a {
   border: black solid 2px;
   border-radius: 20px;
   width: 105%;
-  
 }
 
 .elzero h4 {
@@ -113,24 +109,22 @@ nav ul li a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 25vh;
+  font-size: 18vh;
   color: white;
   background-color: black;
   padding: 10px;
   border-radius: 20px;
 }
 
-#blackbox img{
+#blackbox img {
   background-color: black;
   padding: 10px;
 }
-
 
 @media only screen and (max-width: 450px) {
   body {
     overflow: visible;
   }
-  
 
   .elzero {
     height: 300px;
