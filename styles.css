@@ -10,29 +10,27 @@ body {
 
 * {
   font-family: "poppins", sans-serif;
-  
 }
 
 #title {
-  font-size: 5vw;
+  font-size: 5vh;
+  padding: 2vh;
   margin: 0;
   width: 70%;
-  margin-top: 30px;
-  margin-bottom: 140px;
   color: yellow;
   border: gray;
   background-color: gray;
   text-align: center;
   border-radius: 50px;
-   
+  border: 3px lime solid;
 }
 
-.title{
+.title {
+  margin-top: 30px;
   display: flex;
   text-align: center;
   justify-content: center;
   align-items: center;
-
 }
 
 /* nav {
@@ -71,18 +69,17 @@ nav ul li a {
 
 .main {
   overflow: hidden;
+  margin-top: 90px;
 }
 
 .container1,
 .container2,
-.container3  {
+.container3 {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
 }
-
-
 
 .elzero {
   display: flex;
@@ -100,8 +97,9 @@ nav ul li a {
   border: 2px solid black;
   border-radius: 30px;
   padding: 0;
-  background-color:rgba(255, 255, 255, 0.445);
+  background-color: rgba(255, 255, 255, 0.445);
   position: relative;
+  border: lime 3px solid;
 }
 
 .elzero * {
@@ -110,11 +108,13 @@ nav ul li a {
   text-align: center;
 }
 
-
 .elzero h3 {
-  font-size: 30px;
+  font-size:20px;
   margin-top: 10px;
-  padding-bottom: 20px;
+  background-color: white;
+  padding: 1vh;
+  border-radius: 10px;
+  margin: 2vh;
 }
 
 .elzero h4 {
@@ -125,38 +125,27 @@ nav ul li a {
   cursor: pointer;
 }
 
-.elzero i {
-  font-size: 250px;
+.elzero img {
+  max-height: 60%;
+  max-width: 60%;
   margin: 0;
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
-  
-  
 }
 
-#youtube {
-  font-size:250px;
-}
-
-
-footer{
+footer {
   background-color: gray;
   height: 100px;
 }
 
-footer div{
+footer div {
   text-align: center;
   padding-top: 10px;
-  
-
 }
 
-#extensions h3{
-  font-size: 2.8vh;
-}
+
 
 @media only screen and (max-width: 960px) {
   body {
@@ -168,34 +157,8 @@ footer div{
     margin-top: 90px;
   }
 
-  /* nav {
-    height: 150px;
-  }
-
-  nav ul li {
-    text-align: center;
-  }
-
-  nav ul li a {
-    padding: 10px;
-    margin: 10px;
-    font-size: 5vw;
-    border-radius: 20px;
-  } */
-  
-  #title {
-    font-size: 10vw;
-    padding: 10px;
-    margin-bottom: 0px;
-
-  }
-
   #elzero h4 {
     margin-top: 30px;
-  }
-
-  .elzero i {
-    font-size: 200px;
   }
 
   .main {
@@ -209,10 +172,6 @@ footer div{
     flex-wrap: nowrap;
   }
 
-  #doc {
-    margin: auto;
-    margin-bottom: 40px;
-  }
 
   .elzero {
     min-width: 70%;
@@ -220,7 +179,6 @@ footer div{
     min-height: 200px;
     max-height: 400px;
   }
-
 }
 
 @-moz-document url-prefix() {
