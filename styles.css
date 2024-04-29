@@ -33,9 +33,7 @@ body {
   align-items: center;
 }
 
-
 .main {
-  overflow: hidden;
   margin-top: 90px;
 }
 
@@ -63,10 +61,9 @@ body {
   min-width: 30%;
   border: 2px solid black;
   border-radius: 30px;
-  padding: 0;
   background-color: rgba(255, 255, 255, 0.445);
-  position: relative;
   border: lime 3px solid;
+  position: relative;
 }
 
 .elzero * {
@@ -76,16 +73,13 @@ body {
 }
 
 .elzero h3 {
-  font-size:20px;
-  margin-top: 10px;
+  font-size: 20px;
   background-color: white;
   padding: 1vh;
   border-radius: 10px;
-  margin: 2vh;
-}
-
-.elzero h4 {
-  margin-top: 10px;
+  position: absolute;
+  top: -50px;
+  width: 100%;
 }
 
 .elzero:hover {
@@ -97,7 +91,7 @@ body {
   max-width: 70%;
   margin: 0;
   position: absolute;
-  top: 60%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -112,18 +106,12 @@ footer div {
   padding-top: 10px;
 }
 
-#extensions h3{
-  font-size: 1.7vh;
-  text-wrap: nowrap;
-}
-
 @media only screen and (max-width: 960px) {
   body {
     overflow: visible;
     margin-top: 0;
   }
   .main {
-    overflow: hidden;
     margin-top: 90px;
   }
 
@@ -141,7 +129,6 @@ footer div {
     flex-direction: column;
     flex-wrap: nowrap;
   }
-
 
   .elzero {
     min-width: 70%;
