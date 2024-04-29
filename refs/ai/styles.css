@@ -41,7 +41,7 @@ nav ul li a {
 }
 
 .main {
-  overflow: hidden;
+  margin-top: 90px;
 }
 
 .container1,
@@ -66,8 +66,9 @@ nav ul li a {
   min-width: 250px;
   border-radius: 30px;
   padding: 0;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.445);
   position: relative;
+  border: 2px solid black;
 }
 .elzero * {
   text-decoration: none;
@@ -80,12 +81,23 @@ nav ul li a {
   max-height: 290px;
   border: 1px none solid;
   border-radius: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 90%;
+  
 }
 
 .elzero h3 {
   font-size: 30px;
-  margin-top: 10px;
-  padding-bottom: 20px;
+  position: absolute;
+  top: -50px;
+  background-color: white;
+  border: black solid 2px;
+  border-radius: 20px;
+  width: 105%;
+  
 }
 
 .elzero h4 {
@@ -98,35 +110,27 @@ nav ul li a {
 
 .elzero i {
   position: absolute;
-  top: 20%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-size: 200px;
-}
-
-#blackbox-icon {
+  color: white;
   background-color: black;
   padding: 10px;
-  height: 20%;
-  width: 70%;
-  position: absolute;
-  bottom: 30%;
+  border-radius: 20px;
 }
+
+#blackbox img{
+  background-color: black;
+  padding: 10px;
+}
+
 
 @media only screen and (max-width: 450px) {
   body {
     overflow: visible;
   }
-  .main {
-    overflow: hidden;
-  }
-
-  .elzero img {
-    min-width: 200px;
-    max-width: 200px;
-    max-height: 300px;
-    margin-top: -30px;
-
-    border-radius: 30px;
-  }
+  
 
   .elzero {
     height: 300px;
