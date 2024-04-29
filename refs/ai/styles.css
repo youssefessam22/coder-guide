@@ -113,7 +113,7 @@ nav ul li a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 200px;
+  font-size: 25vh;
   color: white;
   background-color: black;
   padding: 10px;
