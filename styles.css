@@ -52,7 +52,7 @@ body {
   align-items: center;
   box-shadow: 0px 6px 6px 6px rgba(0, 0, 0, 0.3);
   transition: 0.4s;
-  min-height: 400px;
+  min-height: 300px;
   max-height: 800px;
   margin: 0px;
   margin-right: 100px;
@@ -92,12 +92,11 @@ body {
 }
 
 .elzero img {
-  max-height: 90%;
-  max-width: 90%;
-  width: 90%;
-  
+  padding: 10px;
+  width: 60%;
+  height: 60%;
   position: absolute;
-  top: 55%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -112,7 +111,7 @@ footer div {
   padding-top: 10px;
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1000px) {
   body {
     overflow: visible;
     margin-top: 0;
@@ -139,6 +138,15 @@ footer div {
   .elzero {
     min-width: 70%;
     max-width: 70%;
+    height: 300px;
+    
+  }
+
+  .elzero img{
+    height: 60%;
+    width: 60%;
+    max-width: 100%;
+    max-height: 100%;
   }
 }
 
