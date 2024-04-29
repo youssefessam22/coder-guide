@@ -94,9 +94,9 @@ body {
   max-height: 90%;
   max-width: 90%;
   width: 90%;
-  margin: 0;
+  
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -138,8 +138,6 @@ footer div {
   .elzero {
     min-width: 70%;
     max-width: 70%;
-    min-height: 200px;
-    max-height: 400px;
   }
 }
 
