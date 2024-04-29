@@ -89,7 +89,7 @@ nav ul li a {
 }
 .elzero img {
   width: 300px;
-  max-width: 300px;
+  max-width: 260px;
   max-height: 290px;
   border: 1px none solid;
   border-radius: 30px;
@@ -101,22 +101,22 @@ nav ul li a {
 
 .elzero h3 {
   font-size: 30px;
-  margin-top: 10px;
   position: absolute;
-  top: -20px;
+  top: -50px;
   background-color: white;
   border-radius: 20px;
   width: 105%;
-
   border: 2px solid black;
 
 }
 
 .elzero p {
+  padding: 0px;
   font-size: 100%;
   overflow: hidden;
+  text-wrap:pretty;
   position: absolute;
-  bottom: 0;
+  bottom: -10px;
 }
 
 .elzero:hover {
